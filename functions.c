@@ -1,5 +1,19 @@
 #include "headers.h"
 
+//PLIKI
+//wczytuje dane z pliku do elementu listy
+void readAlbumFromFile(FILE *f, Album *q) {
+    if(f) {
+        //fscanf(f, "%s", &(q->name));
+        fgets(&(q->name), 75, f);
+        fscanf(f, "%d", &(q->id));
+        fscanf(f, "%d", &(q->year));
+        fscanf(f, "%d", &(q->status));
+        fscanf(f, "%d", &(q->listened));
+    }
+}
+
+//LISTY
 //wstawia element na listę (na końcu lub początku)
 void insertToList(unsigned int id, unsigned int year, char *name, bool status, bool listened, listPointers *listpt, direction d) {
     Album *q = (Album *)malloc(sizeof(Album));
@@ -33,7 +47,7 @@ void printList(listPointers *listpt, direction d) {
     if(d == FRONT) {
         Album *q = listpt->head;
         while(q) {
-            printf("%s\n%d\n%d\n%b\n%b\n", q->name, q->id, q->year, q->status, q->listened);
+            printf("Nazwa albumu: %s\nID: %d\nRok wydania: %d\nStan: %d\nPrzesłuchany: %d\n", q->name, q->id, q->year, q->status, q->listened);
             q = q->next;
         }
         printf("\n");
@@ -41,7 +55,7 @@ void printList(listPointers *listpt, direction d) {
     else {
         Album *q = listpt->tail;
         while(q) {
-            printf("%s\n%d\n%d\n%b\n%b\n", q->name, q->id, q->year, q->status, q->listened);
+            printf("Nazwa albumu: %s\nID: %d\nRok wydania: %d\nStan: %d\nPrzesłuchany: %d\n", q->name, q->id, q->year, q->status, q->listened);
             q = q->prev;
         }
         printf("\n");
@@ -90,7 +104,7 @@ Album * findInList(unsigned int id, listPointers *listpt) {
 }
 //wstawia element do listy w porządku rosnącym lub malejącym
 void insertByOrder(unsigned int id, unsigned int year, char *name, bool status, bool listened, listPointers *listpt, sort_order d) {
-    Album *q = (listNode *)malloc(sizeof(listNode));
+    Album *q = (Album *)malloc(sizeof(Album));
     Album *temp = listpt->head;
     //data
     q->id = id;
@@ -108,12 +122,12 @@ void insertByOrder(unsigned int id, unsigned int year, char *name, bool status, 
     else {
         //ustalamy porządek oraz szukamy miejsca do wstawienia
         if(d == ASCENDING) {
-            while((temp != NULL) && (q->value <= temp->value)) {
+            while((temp != NULL) && (q->id <= temp->id)) {
                 temp = temp->next;
             }
         }
         else {
-            while((temp != NULL) && (q->value >= temp->value)) {
+            while((temp != NULL) && (q->id >= temp->id)) {
                 temp = temp->next;
             }
         }
