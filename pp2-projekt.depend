@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1459533269 source:/home/crevan/Code/pp2-projekt/functions.c
+	"headers.h"
+
+1459531054 /home/crevan/Code/pp2-projekt/headers.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1459532119 source:/home/crevan/Code/pp2-projekt/main.c
+	"headers.h"
+
