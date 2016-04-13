@@ -1,7 +1,7 @@
 #include "headers.h"
 
 //wstawia element na listę (na końcu lub początku)
-void insertToList(int data, listPointers *listpt, direction d) {
+void insertToList(unsigned int id, unsigned int year, char *name, bool status, bool listened, listPointers *listpt, direction d) {
     Album *q = (Album *)malloc(sizeof(Album));
     //data
     q->id = id;

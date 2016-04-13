@@ -28,6 +28,15 @@ typedef struct list_pointers
 } listPointers;
 
 //definicje funkcji
+void insertToList(unsigned int id, unsigned int year, char *name, bool status, bool listened, listPointers *listpt, direction d);
+void printList(listPointers *listpt, direction d);
+void deleteListElement(listPointers *listpt, direction d);
+void deleteWholeList(listPointers *listpt);
+Album * findInList(unsigned int id, listPointers *listpt);
+void insertByOrder(unsigned int id, unsigned int year, char *name, bool status, bool listened, listPointers *listpt, sort_order d);
+bool isEmpty(listPointers *listpt);
+int countListNodes(listPointers *listpt);
+void reverseList(listPointers *listpt);
 
 
 
