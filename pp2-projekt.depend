@@ -1,12 +1,175 @@
 # depslib dependency file v1.0
-1459533269 source:/home/crevan/Code/pp2-projekt/functions.c
+1462116265 source:/home/crevan/Code/pp2-projekt/functions.c
 	"headers.h"
 
-1459531054 /home/crevan/Code/pp2-projekt/headers.h
+1463506022 "
+
+1462116281 /home/crevan/Code/pp2-projekt/headers.h
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
+	<stdbool.h>
 
-1459532119 source:/home/crevan/Code/pp2-projekt/main.c
+1463506113 >
+
+1462116304 source:/home/crevan/Code/pp2-projekt/main.c
+	"headers.h"
+
+1462107207 source:/home/crevan/Code/pp2-projekt/sublist_functions.c
+	"headers.h"
+
+1462116044 source:/home/crevan/Code/pp2-projekt/sort_functions.c
+	"headers.h"
+
+1462822641 source:c:\users\user\desktop\pp2-projekt\functions.c
+	"headers.h"
+
+1462119882 c:\users\user\desktop\pp2-projekt\headers.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdbool.h>
+
+1462119644 source:c:\users\user\desktop\pp2-projekt\sort_functions.c
+	"headers.h"
+
+1462808349 source:c:\users\user\desktop\pp2-projekt\sublist_functions.c
+	"headers.h"
+
+1462821194 source:c:\users\user\desktop\pp2-projekt\main.c
+	"headers.h"
+
+1462822696 source:c:\users\user\desktop\pp2-projekt — kopia\functions.c
+	"headers.h"
+
+1462119882 c:\users\user\desktop\pp2-projekt — kopia\headers.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdbool.h>
+
+1462828205 source:c:\users\user\desktop\pp2-projekt — kopia\main.c
+	"headers.h"
+
+1462119644 source:c:\users\user\desktop\pp2-projekt — kopia\sort_functions.c
+	"headers.h"
+
+1462808349 source:c:\users\user\desktop\pp2-projekt — kopia\sublist_functions.c
+	"headers.h"
+
+1462822696 source:c:\users\user\desktop\pp2-projekt — o — kopia\functions.c
+	"headers.h"
+
+1462119882 c:\users\user\desktop\pp2-projekt — o — kopia\headers.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdbool.h>
+
+1462119644 source:c:\users\user\desktop\pp2-projekt — o — kopia\sort_functions.c
+	"headers.h"
+
+1462886460 source:c:\users\user\desktop\pp2-projekt — o — kopia\sublist_functions.c
+	"headers.h"
+
+1462889233 source:c:\users\user\desktop\pp2-projekt — o — kopia\main.c
+	"headers.h"
+
+1463501091 source:c:\users\user\desktop\pp2-projekt — o — — kopia\functions.c
+	"headers.h"
+
+1463506113 c:\users\user\desktop\pp2-projekt — o — — kopia\headers.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdbool.h>
+
+1462119644 source:c:\users\user\desktop\pp2-projekt — o — — kopia\sort_functions.c
+	"headers.h"
+
+1463506022 source:c:\users\user\desktop\pp2-projekt — o — — kopia\sublist_functions.c
+	"headers.h"
+
+1463507973 source:c:\users\user\desktop\pp2-projekt — o — — kopia\main.c
+	"headers.h"
+
+1464173393 source:/home/crevan/Code/pp2-projekt â€” o â€”/functions.c
+	"headers.h"
+	"headers.h"
+
+1463830890 /home/crevan/Code/pp2-projekt â€” o â€”/headers.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdbool.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdbool.h>
+
+1464172323 source:/home/crevan/Code/pp2-projekt â€” o â€”/main.c
+	"headers.h"
+	"headers.h"
+
+1462116044 source:/home/crevan/Code/pp2-projekt â€” o â€”/sort_functions.c
+	"headers.h"
+	"headers.h"
+
+1463840843 source:/home/crevan/Code/pp2-projekt â€” o â€”/sublist_functions.c
+	"headers.h"
+	"headers.h"
+
+1462119644 source:c:\users\user\desktop\pp2-projekt — o — — kopia (2)\sort_functions.c
+	"headers.h"
+
+1462119882 c:\users\user\desktop\pp2-projekt — o — — kopia (2)\headers.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdbool.h>
+
+1462886460 source:c:\users\user\desktop\pp2-projekt — o — — kopia (2)\sublist_functions.c
+	"headers.h"
+
+1463496843 source:c:\users\user\desktop\pp2-projekt — o — — kopia (2)\functions.c
+	"headers.h"
+
+1463497327 source:c:\users\user\desktop\pp2-projekt — o — — kopia (2)\main.c
+	"headers.h"
+
+1464436558 source:c:\users\user\desktop\pp2-projekt — o —\functions.c
+	"headers.h"
+
+1464527380 c:\users\user\desktop\pp2-projekt — o —\headers.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdbool.h>
+
+1464786725 source:c:\users\user\desktop\pp2-projekt — o —\main.c
+	"headers.h"
+
+1464357857 source:c:\users\user\desktop\pp2-projekt — o —\sort_functions.c
+	"headers.h"
+
+1464527408 source:c:\users\user\desktop\pp2-projekt — o —\sublist_functions.c
+	"headers.h"
+
+1464956364 source:c:\users\damian\desktop\pp2-projekt — o —\functions.c
+	"headers.h"
+
+1464956309 c:\users\damian\desktop\pp2-projekt — o —\headers.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdbool.h>
+
+1464956336 source:c:\users\damian\desktop\pp2-projekt — o —\main.c
+	"headers.h"
+
+1464953839 source:c:\users\damian\desktop\pp2-projekt — o —\sort_functions.c
+	"headers.h"
+
+1464527408 source:c:\users\damian\desktop\pp2-projekt — o —\sublist_functions.c
 	"headers.h"
 

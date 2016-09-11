@@ -41,6 +41,12 @@
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="sort_functions.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="sublist_functions.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Extensions>
 			<code_completion />
 			<debugger />
